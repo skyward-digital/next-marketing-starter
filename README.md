@@ -1,34 +1,39 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Introduction
 
-## Getting Started
+Hey 👋 thanks for taking the time to look through our resources!
 
-First, run the development server:
+Welcome to our Next.js starter project for marketing websites. It's built with Next.js 13's app router and is set up with TypeScript and Tailwind. For component development and code quality, we've integrated Storybook, Prettier, and ESLint.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+This template is designed to give you a head start on marketing website projects, streamlining the initial setup process. It's all prepared for you to build upon.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Getting started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+To begin, click the "Use this template" button at the top of this repository or clone it locally.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Installing dependencies
 
-## Learn More
+We use pnpm to install our dependencies
 
-To learn more about Next.js, take a look at the following resources:
+`pnpm install`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Running the project
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Once you're ready, start the development server:
 
-## Deploy on Vercel
+`pnpm dev`
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Head over to http://localhost:3000 to see the initial setup.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Storybook
+
+To access your components in Storybook, run:
+
+`pnpm storybook`
+
+Storybook should automatically open a tab at http://localhost:6006/
+
+## Linting and formatting
+
+To run Prettier and ESLint, use:
+
+`pnpm format`
