@@ -2,7 +2,7 @@
 
 Hey 👋 thanks for taking the time to look through our resources!
 
-Welcome to our Next.js starter project for marketing websites. It's built with Next.js 13's app router and is set up with TypeScript and Tailwind. For component development and code quality, we've integrated Storybook, Prettier, and ESLint.
+Welcome to our Next.js starter project for marketing websites. It's built using Next.js 13's app router, TypeScript, and Tailwind. For component development and code quality, we've integrated Storybook, Prettier, and ESLint.
 
 This template is designed to give you a head start on marketing website projects, streamlining the initial setup process. It's all prepared for you to build upon.
 
